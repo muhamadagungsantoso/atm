@@ -85,7 +85,6 @@ def transfer(saldo):
 while kesempatan > 0:
     pin = int(input("Masukkan 4 digit PIN anda: "))
     if pin == validation:
-        print("PIN anda benar")
         print("\n===SELAMAT DATANG===")
 
         while keluar == False:
